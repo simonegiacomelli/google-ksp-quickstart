@@ -20,3 +20,12 @@ ksp {
     arg("option1", "value1")
     arg("option2", "value2")
 }
+
+kotlin {
+    sourceSets {
+        main {
+            kotlin.srcDir("$buildDir/generated/ksp/main/java")
+            kotlin.srcDir("$buildDir/generated/ksp/main/kotlin")
+        }
+    }
+}
