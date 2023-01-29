@@ -3,6 +3,7 @@ package com.example
 import HELLO
 
 fun main() {
+    println(KotlinVersion.CURRENT)
     val hello = HELLO()
     println(hello.foo())
 

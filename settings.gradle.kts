@@ -6,8 +6,8 @@ pluginManagement {
         kotlin("jvm") version kotlinVersion
     }
     repositories {
+        mavenCentral()
         gradlePluginPortal()
-        google()
     }
 }
 
